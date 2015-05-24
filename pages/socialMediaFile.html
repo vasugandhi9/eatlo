@@ -1,0 +1,9 @@
+<div style="display:inline" ng-controller="SocialMediaController as social">
+				
+				<ul class="socialMedia" >
+						<li ng-repeat = "media in social.media">
+							<a href = {{media.href}} ><img   src={{media.src}} alt={{media.alt}} ></a>
+						</li>
+						
+				</ul>
+</div>
